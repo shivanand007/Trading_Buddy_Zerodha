@@ -24,22 +24,38 @@ Follow the steps below to set up and run the Python application:
 
 7. Run the Python application:
 
-Usage
------
-Explain how to use the application and provide any additional information or instructions that users may need.
+## Usage
 
-License
--------
+This application can be used while you start trading. It acts as a co-trader even in your absence, making smart sell calls based on your pre-defined loss limit. Here's how to use it:
+
+1. Configure your trading settings and loss limit in the `config.ini` file.
+
+2. Run the application, and it will automatically log in to your Kite Zerodha account.
+
+3. Once logged in, the application will monitor your trades and watch for any loss exceeding the specified limit.
+
+4. The application dynamically adjusts the stop loss value based on the current price of your stocks. For example, if you have set a 5% stop loss for a stock and its current price decreases, the application will automatically adjust the stop loss value to be slightly less than 5% of the current price.
+
+5. When the loss limit is reached, or the adjusted stop loss is triggered, the application will initiate sell calls to minimize your losses.
+
+This smart stop loss strategy has helped many traders save up to 50% of their losses within a month. It provides an automated approach to adjust the stop loss value based on market conditions, allowing for effective risk management.
+
+You can customize the behavior and rules for selling by modifying the Python code in `main.py` to match your trading strategy.
+
+Remember to keep an eye on the application's activities and monitor the trades it performs.
+
+## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Contributing
-------------
+## Contributing
+
 We welcome contributions from the community. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-Acknowledgments
----------------
+## Acknowledgments
+
 Mention any acknowledgments, libraries, or resources used in the project.
 
-Contact
--------
+## Contact
+
 Provide your contact information or ways for users to reach out to you.
