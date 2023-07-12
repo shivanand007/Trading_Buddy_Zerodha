@@ -52,10 +52,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 We welcome contributions from the community. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-## Acknowledgments
-
-Mention any acknowledgments, libraries, or resources used in the project.
-
 ## Contact
 
-Provide your contact information or ways for users to reach out to you.
+shivanandmasne1998@gmail.com
